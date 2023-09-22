@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(to bottom, #840f84, #ff5400);
+    height: 100%;
+
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #ffd9ff;
+    text-align: center;
+    font-family: cursivalinda;
+    font-size: 6vw;
+    margin-bottom: 3vw;
+    border-bottom: solid 1px plum;
+}
+
+#contenedorimg {
+    align-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    position: initial;
+    justify-content: center;
+}
+
+img {
+    width: 25vw;
+    height: auto;
+    margin: 1vw;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.fas {
+    text-align: center;
+    display: block;
+}
+
+section {
+    font-family: links;
+    text-align: justify;
+    margin-bottom: 3vw;
+    width: 50vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex; /* Aplicar flexbox */
+    justify-content: center; /* Centrar los enlaces horizontalmente */
+    align-items: center; /* Centrar los enlaces verticalmente */
+    margin-bottom: 3vw;
+}
+
+p{
+    font-family: links;
+    text-align: justify;
+    font-size: 2vw;
+}
+
+a {
+    font-family: links;
+    text-align: center;
+    color: #fe8e0a;
+    font-size: 2.4vw;
+    object-position: center;
+    margin: 0 1vw; /* Espacio horizontal entre enlaces */
+    display: block;
+}
+
+a:visited {
+    color: #808080;
+}
+
+.animated-image {
+  animation: moveImage 3s ease-in-out infinite; /* Aplica la animación */
+}
+
+
+@font-face {
+    font-family: cursivalinda;
+    src: url("Sacramento-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: links;
+    src: url("GFS.ttf") format("truetype");
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+

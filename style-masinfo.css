@@ -1,0 +1,167 @@
+body {
+      background-image: url("fondo_info.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+header{
+	text-align: center;
+}
+
+h1{
+	color: #ffd9ff;
+	text-align: center;
+	font-family: cursivalinda;
+	font-size: 8vw;
+	margin-bottom: 3vw;
+	margin-right: 25vw;
+	margin-left: 22vw;
+}
+
+h2{
+	color: #fe8e0a;
+	text-align: center;
+	font-family: links;
+	font-size: 3vw;
+	margin-bottom: 1vw;
+}
+/* la barra del menú */
+
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.navbar {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin bottom: inherit;
+    display: flex;
+   
+}
+
+.navbar li {
+    text-align: left!important;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #33;
+    font-size: 18px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    display: block; /* Asegura que cada enlace se muestre en una línea separada */
+}
+}
+
+.content {
+    margin-top: 0;
+    padding: 0px;
+    transition: 0.4s;
+}
+
+.open {
+    top: 0;
+    background-color: transparent;
+}
+
+.shift-content {
+    margin-top: 100px;
+}
+
+/* aquí termina la barra del menú */
+p{
+	font-family: links;
+	font-size: 1.6vw;
+	text-align: justify;
+	background: #dbc5dfcc;
+	margin-right: 22vw;
+	margin-left: 22vw;
+}
+
+nav {
+    display: flex; /* Aplicar flexbox */
+    justify-content: center; /* Centrar los enlaces horizontalmente */
+    align-items: center; /* Centrar los enlaces verticalmente */
+    margin-bottom: 3vw;
+}
+
+img {
+    width: 50vw;
+    height: auto;
+    margin: 1vw;
+}
+
+a {
+    font-family: links;
+  	text-align: center;
+  	color: #fe8e0a;
+  	font-size: 2.4vw;
+  	object-position: center;
+  	margin: 0 1vw; /* Espacio horizontal entre enlaces */
+  	display: block;
+  	text-decoration: none;
+}
+}
+
+a:visited {
+    color: #cabfea;
+}
+
+#contenedortabla{
+	align-content: center;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	position: initial;
+	justify-content: center;
+}
+
+#contenedorA{
+	align-content: center;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	position: initial;
+	justify-content: center;
+}
+
+
+
+@font-face {
+    font-family: cursivalinda;
+    src: url("Sacramento-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: links;
+    src: url("GFS.ttf") format("truetype");
+}
+

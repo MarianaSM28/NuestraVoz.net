@@ -1,0 +1,159 @@
+body {
+      background-image: url("FondoPersonal.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+
+header{
+	text-align: center;
+}
+
+h1{
+	color: #ffd9ff;
+	text-align: center;
+	font-family: cursivalinda;
+	font-size: 9vw;
+	margin-bottom: 1vw;
+}
+
+/* la barra del menú */
+
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.navbar {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+   
+}
+
+.navbar li {
+    text-align: left!important;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #33;
+    font-size: 18px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    display: block; /* Asegura que cada enlace se muestre en una línea separada */
+}
+}
+
+.content {
+    margin-top: 0;
+    padding: 0px;
+    transition: 0.4s;
+}
+
+.open {
+    top: 0;
+    background-color: transparent;
+}
+
+.shift-content {
+    margin-top: 100px;
+}
+
+/* aquí termina la barra del menú */
+
+#contenedorimg{
+	align-content: center;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	position: initial;
+	justify-content: center;
+}
+
+img{
+	width: 50vw;
+	height: auto;
+	margin: 1vw;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+
+}
+.fas{
+	text-align: center;
+	display: block;
+}
+
+section{
+	font-family: links;
+	text-align: justify;
+	margin-bottom: 3vw;
+	width: 50vw;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+p{
+	font-family: links;
+	text-align: justify;
+	background: #dbc5dfcc;
+}
+
+a{
+	font-family:links;
+	text-align: center;
+	color: #fe8e0a;
+	font-size: 2.4vw;
+	object-position: center;
+	margin-bottom: 3vw;
+	display: block;
+	text-decoration: none;
+}
+
+a:visited { color: #cabfea; }
+
+nav{
+	text-align: center;
+}
+
+@font-face {
+    font-family: cursivalinda;
+    src: url("Sacramento-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: links;
+    src: url("GFS.ttf") format("truetype");
+}

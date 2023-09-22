@@ -1,0 +1,77 @@
+body {
+background-image: url("tapizfuturos.png");
+}
+
+header{
+	text-align: center;
+}
+
+h1{
+	color: black;
+	text-align: center;
+	font-family: cursivalinda;
+	font-size: 6vw;
+	margin-bottom: 1.5vw;
+	border-bottom:solid 1px plum;
+
+}
+
+#contenedorimg{
+	align-content: center;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	position: initial;
+	justify-content: center;
+}
+
+img{
+	width: 30vw;
+	height: auto;
+	margin: 1vw;
+}
+
+
+.fas{
+	text-align: center;
+	display: block;
+}
+
+section{
+	font-family: links;
+	text-align: justify;
+	margin-bottom: 3vw;
+	width: 50vw;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+a{
+	font-family:links;
+	text-align: center;
+	color: #00ffff;
+	font-size: 2.4vw;
+	object-position: center;
+	margin-bottom: 3vw;
+	display: block;
+}
+
+a:visited { color: #cabfea; }
+
+nav{
+	text-align: center;
+}
+
+@font-face {
+font-family: cursivalinda;
+src: url("GreatVibes.ttf") format("truetype");
+}
+
+@font-face {
+font-family: links;
+src: url("PatrickH.ttf") format("truetype");
+}
